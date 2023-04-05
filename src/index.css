@@ -1,0 +1,165 @@
+*{
+ text-decoration: none;
+ list-style: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgba(174, 174, 174, 0.58);
+  border-radius: 5px;
+}
+
+.ppp{
+  color: rgb(128, 128, 128);
+}
+
+.text li{
+  color: rgba(13, 13, 13, 0.934);
+}
+
+.wrapper{
+  max-width: 1200px;
+  width: 100%;
+  background-color: rgba(243, 239, 248, 0.447);
+  border: 2px solid;
+}
+
+
+.sidebar{
+   width:200px;
+  height: auto;
+  padding-bottom: 300px;
+  background-color: rgba(217, 195, 243, 0.447);
+  text-align: center;
+
+}
+
+.side_list_item{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px;
+  margin-left: -17px;
+}
+
+.side_list_item_link{
+  color: rgb(0, 0, 0);
+
+}
+
+.side_list_item_link :hover{
+   color: rgb(8, 210, 8);
+   font-size: 30px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: -6px -11px 22px -5px rgba (34, 60, 80, 0.84);
+  background-color: rgb(226, 249, 241);
+}
+
+.nav_list{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 300px;
+}
+
+.nav_list_item{
+  display: flex;
+  margin-left: 20px;
+  background-color: aqua;
+width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+justify-content: center;
+  align-items: center;
+}
+
+.layourr{
+  width: 100%;
+  display: flex;
+
+}
+
+
+.slider{
+  margin-left: 300px;
+  background-color: aqua;
+}
+
+
+.about{
+ display: flex;
+}
+
+.shaxar{
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.105);
+  margin-bottom: 20px;
+  background-color: rgb(238, 244, 250);
+}
+
+.shaxar img{
+  width: 300px;
+  height: 220px;
+  border-radius: 20px;
+}
+
+.katta{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.more{
+  border: none;
+  background: none;
+  color: rgb(0, 168, 0);
+}
+
+.less{
+  border: none;
+  background: none;
+  color: red;
+}
+
+.menu{
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.105);
+  margin-bottom: 30px;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.116);
+  background-color: rgb(250, 250, 232);
+}
+
+.menu img{
+  width: 300px;
+  height: 222px;
+  border-radius: 20px;
+}
+
+
+.katta_text{
+  width: 150px;
+  margin-left: 440px;
+  font-size: 30px;
+  border-bottom: 4px solid green;
+}
+
+.delete{
+margin-bottom: 15px;
+border: none;
+}
